@@ -29,25 +29,25 @@ export default function App() {
               className="text-white text-center mb-4"
               style={{ fontFamily: "'Press Start 2P', cursive", fontSize: '24px', lineHeight: '1.6' }}
             >
-              YOUR NAME
+              GENESIS N. GREGORIO
             </h1>
             <div className="flex flex-wrap justify-center gap-4 text-white/90 text-sm">
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                <span>your.email@example.com</span>
+                <span>genesis.nav19@gmail.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
-                <span>+1 (555) 123-4567</span>
+                <span>(+63) 927 8080 0496</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4" />
-                <span>Your City, Country</span>
+                <span>Nueva Ecija 3128, PH</span>
               </div>
             </div>
             <div className="flex justify-center gap-4 mt-4">
               <a 
-                href="https://github.com/yourusername" 
+                href="https://github.com/waveeeh" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-white/90 hover:text-white transition-colors"
@@ -56,7 +56,7 @@ export default function App() {
                 <span className="text-sm">GitHub</span>
               </a>
               <a 
-                href="https://linkedin.com/in/yourusername" 
+                href="linkedin.com/in/genesis-gregorio/" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-white/90 hover:text-white transition-colors"
@@ -72,9 +72,7 @@ export default function App() {
         <SectionCard title="About" icon="🌻">
           <div className="bg-white/50 p-4 rounded border-2 border-[#8B4513]/30">
             <p className="text-[#4a2c2a]">
-              Passionate developer with expertise in building scalable web applications. 
-              I love creating intuitive user experiences and solving complex problems. 
-              When I'm not coding, you can find me farming in Stardew Valley!
+              Tech-driven IT graduate with a background in Web Systems Technology and hands-on experience in data encoding, digital documentation, and system support. Skilled in maintaining accurate records, managing structured data, and supporting system operations to ensure efficiency and data integrity. Adaptable, detail-oriented, and proactive, with the ability to navigate administrative and technical tasks while delivering consistent, reliable results in fast-paced environments
             </p>
           </div>
         </SectionCard>
@@ -82,34 +80,13 @@ export default function App() {
         {/* Work Experience */}
         <SectionCard title="Experience" icon="⚒️">
           <ExperienceItem
-            position="Senior Full Stack Developer"
-            company="Tech Company Inc."
-            date="2022 - Present"
+            position="IT Management Information Systems (MIS) - Data Entry Specialist "
+            company="Bahay - Pamahalaan Lalawigan ng Nueva Ecija"
+            date="July 2025 - Jan 2026"
             responsibilities={[
-              "Lead development of customer-facing web applications",
-              "Architect and implement RESTful APIs using Node.js",
-              "Mentor junior developers and conduct code reviews",
-              "Reduced page load times by 40% through optimization"
-            ]}
-          />
-          <ExperienceItem
-            position="Frontend Developer"
-            company="Digital Agency Co."
-            date="2020 - 2022"
-            responsibilities={[
-              "Built responsive websites using React and TypeScript",
-              "Collaborated with design team to implement pixel-perfect UIs",
-              "Improved accessibility compliance to WCAG 2.1 standards"
-            ]}
-          />
-          <ExperienceItem
-            position="Junior Developer"
-            company="Startup Studio"
-            date="2018 - 2020"
-            responsibilities={[
-              "Developed features for mobile-first web applications",
-              "Maintained and updated legacy codebases",
-              "Participated in agile development processes"
+              "Maintained internal systems to ensure data integrity, confidentiality, and smooth operations.",
+              "Assisted in the administration of internal MIS platforms, handling data entry for production records and ID generation with a focus on data accuracy and confidentiality.",
+              "Collaborated with internal teams to streamline workflows and improve system reliability.",
             ]}
           />
         </SectionCard>
@@ -117,55 +94,59 @@ export default function App() {
         {/* Education */}
         <SectionCard title="Education" icon="📚">
           <EducationItem
-            degree="Bachelor of Science in Computer Science"
-            institution="University Name"
-            date="2014 - 2018"
+            degree="Bachelor of Science in Information Technology"
+            institution="Nueva Ecija University of Science and Technology"
+            date="2021 - 2025"
+            place="Academic Distinction"
           />
           <EducationItem
-            degree="Associate Degree in Web Development"
-            institution="Community College"
-            date="2012 - 2014"
+            degree="(STEM) Science, Technology, Engineering, and Mathematics"
+            institution="i-Achievers Academy"
+            date="2019 - 2021"
+            place="With Highest Honors"
           />
         </SectionCard>
 
         {/* Certifications */}
         <SectionCard title="Certificates" icon="🏆">
           <CertificationItem
-            name="AWS Certified Solutions Architect"
-            issuer="Amazon Web Services"
-            date="2023"
+            name="International Research Conference on Information Technology Education"
+            issuer="IRCITE - PSITE Region"
+            date="2024"
           />
           <CertificationItem
-            name="Google Cloud Professional Developer"
-            issuer="Google Cloud"
-            date="2022"
+            name="DICT-DLS003 Microsoft Productivity Tools"
+            issuer="ILCDB - DICT LMS"
+            date="October 2024"
           />
           <CertificationItem
-            name="React Advanced Certification"
-            issuer="Meta"
-            date="2021"
+            name="Information Technology Specialist in HTML & CSS"
+            issuer="CERTIPORT"
+            date="November 2024"
+            verifyLink="https://verify.certiport.com" 
+            credentialId="dQwE-DwVk"
+          />
+          <CertificationItem
+            name="EF Standard English Test"
+            issuer="EF SET Certificate"
+            date="July 2025"  
+            verifyLink="https://cert.efset.org/G6W5ry" 
           />
         </SectionCard>
 
         {/* Side Projects */}
         <SectionCard title="Side Projects" icon="🎮">
           <ProjectItem
-            name="Task Manager Pro"
-            description="A full-stack task management application with real-time collaboration features"
-            link="https://task-manager.vercel.app"
-            tech={["React", "Node.js", "MongoDB", "Socket.io"]}
+            name="Valentine's Photobooth"
+            description="The app captures photos using your device's camera, arranges them into a classic photo-strip layout, and then—when the strip is generated—displays 'Happy Valentine's Day' as a surprise overlay or caption. It’s a modern, digital twist on a vintage photo booth, built with love and a few lines of code."
+            link="https://valentine-photobooth-z2k8-git-main-genengs-projects.vercel.app/"
+            tech={["React", "Vite", "Tailwind", "JSON", "npm"]}
           />
           <ProjectItem
-            name="Weather Dashboard"
-            description="Beautiful weather visualization dashboard with 7-day forecasts"
-            link="https://weather-dash.vercel.app"
-            tech={["Next.js", "TypeScript", "Tailwind", "API"]}
-          />
-          <ProjectItem
-            name="Portfolio Generator"
-            description="Open-source tool to generate customizable developer portfolios"
-            link="https://portfolio-gen.vercel.app"
-            tech={["React", "Vite", "CSS"]}
+            name="Home Proj. Photobooth"
+            description=" It’s a general‑purpose photobooth – friends can play with filters, choose layouts, and even support you via a QR donation. Fun and flexible."
+            link="https://homeproj-photobooth.vercel.app/"
+            tech={["React", "Vite", "Tailwind", "JSON", "npm"]}
           />
         </SectionCard>
 
