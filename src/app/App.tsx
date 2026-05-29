@@ -84,9 +84,12 @@ export default function App() {
             company="Bahay - Pamahalaan Lalawigan ng Nueva Ecija"
             date="July 2025 - Jan 2026"
             responsibilities={[
-              "Maintained internal systems to ensure data integrity, confidentiality, and smooth operations.",
-              "Assisted in the administration of internal MIS platforms, handling data entry for production records and ID generation with a focus on data accuracy and confidentiality.",
-              "Collaborated with internal teams to streamline workflows and improve system reliability.",
+              "Maintained internal databases and records with a strong focus on data integrity, confidentiality, and accuracy for daily administrative operations.",
+              "Assisted in managing MIS platforms by encoding production records and generating employee IDs, ensuring timely and error-free data processing.",
+              "Processed and organized large volumes of paperwork and encoding tasks using Google Sheets, Microsoft Excel, and internal systems, consistently completing assignments ahead of deadlines.",
+              "Collaborated with internal departments to streamline documentation workflows, helping improve operational efficiency and system reliability.",
+              "Prepared and updated administrative records and reports to support smooth coordination between teams and office operations.",
+              "Provided technical and administrative support to ensure smooth daily operations of information systems."
             ]}
           />
         </SectionCard>
@@ -110,6 +113,12 @@ export default function App() {
         {/* Certifications */}
         <SectionCard title="Certificates" icon="🏆">
           <CertificationItem
+            name="EF Standard English Test"
+            issuer="EF SET Certificate"
+            date="May 2026"  
+            verifyLink="https://cert.efset.org/G6W5ry" 
+          />
+          <CertificationItem
             name="International Research Conference on Information Technology Education"
             issuer="IRCITE - PSITE Region"
             date="2024"
@@ -125,12 +134,6 @@ export default function App() {
             date="November 2024"
             verifyLink="https://verify.certiport.com" 
             credentialId="dQwE-DwVk"
-          />
-          <CertificationItem
-            name="EF Standard English Test"
-            issuer="EF SET Certificate"
-            date="July 2025"  
-            verifyLink="https://cert.efset.org/G6W5ry" 
           />
         </SectionCard>
 
